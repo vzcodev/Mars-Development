@@ -645,4 +645,4 @@ class Music(commands.Cog):
         ctx.voice_client.play(player, after=lambda e: print('Player error: %s' % e) if e else None)
 
         await ctx.send('Now playing: {}'.format(player.title))
-mars.run('NzQxOTQ0MzAyMzk3MjkyNjA0.Xy-7eg.-5klravp3gdy9t_rdQREtP1vJqo')
+mars.run('token :3')
